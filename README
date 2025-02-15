@@ -1,0 +1,5 @@
+PurrArch installation script
+============================
+
+A simple installer whipped up quickly using Python
+and curses. It works, but I offer no guarantees.
