@@ -275,7 +275,6 @@ class PurrInstaller:
         script += f"  grub-mkconfig -o /boot/grub/grub.cfg\n"
         script += f"fi\n"
 
-        script += f"pacman -S --noconfirm sddm plasma dolphin arc kate konsole networkmanager opendoas fish\n"
         script += f"echo 'permit persist :wheel' > /etc/doas.conf'\n"
 
         script += f"EOF\n"
